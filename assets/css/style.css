@@ -644,6 +644,15 @@ section .container {
   margin-bottom: 0;
 }
 
+.projects .icon-box button {
+  background: #35e888;
+}
+
+.projects .icon-box .github-button a {
+  color: white;
+}
+
+
 .projects .icon-box:hover {
   background: #18d26e;
   border-color: #18d26e;
@@ -664,7 +673,15 @@ section .container {
 .projects .icon-box:hover h4 a, .projects .icon-box:hover p {
   color: #fff;
 }
- 
+
+
+.projects .icon-box:hover .github-button {
+  background: #fff;
+}
+
+.projects .icon-box:hover .github-button a {
+  color: #000;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
